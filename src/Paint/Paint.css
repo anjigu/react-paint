@@ -1,0 +1,74 @@
+canvas {
+  margin: 0;
+  padding: 0;
+  box-shadow: var(--big-box);
+}
+
+canvas:focus {
+  outline: none;
+}
+
+input.color-input {
+  padding: 0px;
+  border: 1px solid var(--gray-300);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+  border: 7px solid rgba(255,255,255,0.8);
+  /* justify-content: center; */
+  background-color: rgb(174, 174, 174);
+
+}
+button {
+  margin-top: 15px;
+  margin-right: 5px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+}
+
+.inner {
+  max-width: 864px;
+}
+
+.canvas-option-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+}
+
+.canvas-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.canvas-brush-color,
+.canvas-reset-color {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.canvas-brush-color > div {
+  line-height: 24px;
+}
+.canvas-brush-scale {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.canvas-brush-range-text {
+  width: 40px;
+}
